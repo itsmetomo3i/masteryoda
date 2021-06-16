@@ -44,6 +44,7 @@ $max_number = $arr[0];
 return $max_number;
 }
 echo max_array($arr);
+echo "\n";
 
 //5.次のビルトイン関数の用途、使い方を調べて実際に使ってみてください。
 //strip_tags,array_push,array_merge,time, mktime,date
@@ -75,3 +76,4 @@ echo 'now'.time() ."\n";
 //Timezoneを設定する
 date_default_timezone_set('Asia/Tokyo');
 echo date("Y/m/d H:i:s") . "\n";
+?>
